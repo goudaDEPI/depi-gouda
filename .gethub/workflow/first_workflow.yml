@@ -5,11 +5,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: checkout repo
-            uses: actions/checkout@v4
+                uses: actions/checkout@v4
             - name: list files
-            run: ls -ltra
+               run: ls -ltra
             - name: run shell script 
-            run: 
+               run: 
               |
               chmod +x print.sh
               ./print.sh
