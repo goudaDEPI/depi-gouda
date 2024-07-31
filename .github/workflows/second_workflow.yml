@@ -3,7 +3,7 @@ on: push
 jobs:
     build_job:
         runs-on: ubuntu-latest
-        steps:
+      steps:
             - name: checkout repo
               uses: actions/checkout@v4
             - name: install Gowsy prog
@@ -28,6 +28,6 @@ jobs:
           run: grep -i "dragon" dragon.txt
 
 
-          
+
           
               
