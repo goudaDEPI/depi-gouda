@@ -10,8 +10,9 @@ jobs:
                run: ls -ltra
             - name: run shell script 
                run: 
-              |
-              chmod +x print.sh
-              ./print.sh
+                  |
+                  chmod +x print.sh
+                  ./print.sh
+            
             
               
